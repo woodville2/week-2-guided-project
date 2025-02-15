@@ -12,14 +12,16 @@ body {
   margin-left: 10px;
 }
 
-.cta{ background-color: lightgreen;
-    margin-top: 0;
-    margin-bottom: 75px;
-    color: rgba(236, 144, 6, 0.959);
-
+.cta {
+  background-color: lightgreen;
+  margin-left: 45px;
+  margin-top: 10px;
+  margin-bottom: 85px;
+  color: rgba(236, 144, 6, 0.959);
+  cursor: cell;
+  display: inline-block;
 }
-
-
+.cta:hover{background-color:rgb(56, 37, 2) ;}
 
 .navigation {
   display: flex;
