@@ -3,18 +3,23 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.navbar{display:flex;
-margin-top:15px;
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-background-color: rgba(12, 238, 241, 0.644);
-margin-left: 10px;}
-
-h1 {
+.navbar {
   display: flex;
-  margin-top: 150px;
-  margin-right: 50px;
+  margin-top: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  background-color: rgba(12, 238, 241, 0.644);
+  margin-left: 10px;
 }
+
+.cta{ background-color: lightgreen;
+    margin-top: 0;
+    margin-bottom: 75px;
+    color: rgba(236, 144, 6, 0.959);
+
+}
+
+
 
 .navigation {
   display: flex;
@@ -22,22 +27,22 @@ h1 {
   gap: 10px;
 }
 .middlesection {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
   display: flex;
- justify-content: center;
+  justify-content: center;
   margin-top: 20px;
   gap: 45px;
-  padding: bottom 10px; ;
+  padding: bottom 10px;
 }
 
 .beginning {
-    font-size: larger;
+  font-size: xx-large;
   display: flex;
- margin-left: 45px;
- 
+  margin-left: 45px;
+
   margin-top: 55px;
-  gap:20px;
+  gap: 20px;
 }
 
 div {
@@ -45,13 +50,17 @@ div {
   justify-content: center;
   font-size: larger;
   margin-top: 10px;
- 
   color: azure;
   background-color: rgba(3, 77, 3, 0.781);
   border-radius: 10px;
 }
 
-
+span strong {
+  display: flex;
+  justify-content: center;
+  color: rgba(236, 144, 6, 0.959);
+  text-decoration: underline;
+}
 
 button {
   background-color: rgb(1, 24, 1);
