@@ -18,14 +18,16 @@ body {
   margin-top: 10px;
   margin-bottom: 85px;
   color: rgba(236, 144, 6, 0.959);
-  cursor:pointer;
+  cursor: pointer;
   display: inline-block;
 }
-.cta:hover{background-color:rgb(56, 37, 2) ;}
+.cta:hover {
+  background-color: rgb(56, 37, 2);
+}
 
 .navigation {
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
   gap: 10px;
 }
 .middlesection {
@@ -41,6 +43,7 @@ body {
 .beginning {
   font-size: 1.2rem;
   display: flex;
+  justify-content: center;
   margin-left: 45px;
 
   margin-top: 55px;
@@ -71,6 +74,12 @@ button {
   color: azure;
 }
 
-form{ display:flex;
-gap: 6px;
+form {
+  display: flex;
+  gap: 6px;
+}
+
+footer {
+  display: flex;
+  margin-top: 15px;
 }
