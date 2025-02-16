@@ -70,4 +70,7 @@ button {
   border-radius: 6px;
   color: azure;
 }
-.textarea{margin-top: 2px; }
+
+form{ display:flex;
+gap: 6px;
+}
